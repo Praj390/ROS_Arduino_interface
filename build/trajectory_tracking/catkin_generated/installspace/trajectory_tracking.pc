@@ -1,0 +1,8 @@
+prefix=/home/prajval/arduino_ws/install
+
+Name: trajectory_tracking
+Description: Description of trajectory_tracking
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: gazebo_ros geometry_msgs nav_msgs roscpp rospy std_msgs tf
